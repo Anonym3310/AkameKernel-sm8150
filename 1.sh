@@ -42,8 +42,8 @@ IMAGE=Image-dtb				# Image.gz-dtb Image Image.gz Image-dtb
 
 #===[ Editable ]===#
 
-#export USE_CCACHE=1
-#export CCACHE_DIR=~/.ccache
+export USE_CCACHE=1
+export CCACHE_DIR=~/.ccache
 export JOBS="-j14"
 
 #===[ Standart ]===#
@@ -55,7 +55,7 @@ export SUBARCH=$ARCH
 export UN=$HOME/kernels                         #path to the kernel folder
 export CONFIG=".config"
 export LOG="2>&1 | tee log.txt"
-export DTC_EXT=dtc
+
 
 #########################
 #===[ Smart Exports ]===#
