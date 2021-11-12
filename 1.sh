@@ -393,7 +393,7 @@ cp $(find -name Image-dtb) ${ANYKERNEL_DIR}/
 #cp $(find -name Image.gz-dtb) ${ANYKERNEL_DIR}/
 #cp $(find -name Image.gz) ${ANYKERNEL_DIR}/
 #cp $(find -name dtb) ${ANYKERNEL_DIR}/
-#cp $(find -name dtbo.img) ${ANYKERNEL_DIR}/
+cp $(find -name dtbo.img) ${ANYKERNEL_DIR}/
 
 
 #===[ ZIPPING ]===#
@@ -510,7 +510,7 @@ cp $(find -name Image-dtb) ${ANYKERNEL_DIR}/
 #cp $(find -name Image.gz-dtb) ${ANYKERNEL_DIR}/
 #cp $(find -name Image.gz) ${ANYKERNEL_DIR}/
 #cp $(find -name dtb) ${ANYKERNEL_DIR}/
-#cp $(find -name dtbo.img) ${ANYKERNEL_DIR}/
+cp $(find -name dtbo.img) ${ANYKERNEL_DIR}/
 
 
 #===[ ZIPPING ]===#
@@ -741,7 +741,7 @@ cp $(find -name Image-dtb) ${ANYKERNEL_DIR}/
 #cp $(find -name Image.gz-dtb) ${ANYKERNEL_DIR}/
 #cp $(find -name Image.gz) ${ANYKERNEL_DIR}/
 #cp $(find -name dtb) ${ANYKERNEL_DIR}/
-#cp $(find -name dtbo.img) ${ANYKERNEL_DIR}/
+cp $(find -name dtbo.img) ${ANYKERNEL_DIR}/
 
 
 #===[ ZIPPING ]===#
