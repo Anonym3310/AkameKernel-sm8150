@@ -400,7 +400,7 @@ cp $(find -name dtbo.img) ${ANYKERNEL_DIR}/
 
 #===[ ZIPPING ]===#
 
-
+cp -r AK3/* ${ANYKERNEL_DIR}
 cd ${ANYKERNEL_DIR}
 zip -r -9 AkameKernel-${CODENAME}-$(date +%d-%m-%y).zip * -x .git README.md *placeholder
 
@@ -516,6 +516,7 @@ cp $(find -name dtbo.img) ${ANYKERNEL_DIR}/
 #===[ ZIPPING ]===#
 
 
+cp -r AK3/* ${ANYKERNEL_DIR}
 cd ${ANYKERNEL_DIR}
 zip -r -9 AkameKernel-${CODENAME}-$(date +%d-%m-%y).zip * -x .git README.md *placeholder
 
@@ -744,7 +745,7 @@ cp $(find -name dtbo.img) ${ANYKERNEL_DIR}/
 
 #===[ ZIPPING ]===#
 
-
+cp -r AK3/* ${ANYKERNEL_DIR}
 cd ${ANYKERNEL_DIR}
 zip -r -9 AkameKernel-${CODENAME}-$(date +%d-%m-%y).zip * -x .git README.md *placeholder
 
